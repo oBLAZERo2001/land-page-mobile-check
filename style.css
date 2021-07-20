@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* intro--------------------------------------- */
+
+.body {
+  padding: 3vw 3vw 0 3vw;
+  /* background-image: url(./images/back-ground.jpg); */
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.intro {
+  width: 40vw;
+  padding: 20px 60px;
+}
+
+.LARGE {
+  font-size: 90px;
+  font-weight: 1000;
+  padding: 100px 0 20px 0;
+}
+
+.intro-text {
+  max-width: 400px;
+}
+
+.dblBtn {
+  margin: 40px 0;
+}
+
+.btn1,
+.btn2 {
+  padding: 15px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: rgb(59, 189, 246);
+  color: white;
+}
+
+.btn2 {
+  background-color: transparent;
+}
+@media screen and (max-width: 900px) {
+  .LARGE {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .LARGE {
+    font-size: 30px;
+  }
+}
+/* ---------------------------------------------------------------------- */
+
+/* body2--------------------------------------------------- */
+
+.body2 {
+  padding: 3vh 3vw;
+}
+
+/* .section1 {
+    padding: 20px;
+    background-image: linear-gradient(to left, rgb(167, 205, 214), rgb(238, 186, 186));
+   rgb(167, 205, 214) rgb(181, 226, 177)
+} */
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.all-work {
+  margin: 0 30px;
+  width: 400px;
+  min-width: 200px;
+  border: 2px solid transparent;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.all-work:hover {
+  border: 2px solid white;
+}
+
+.classicHolder {
+  padding-left: 50px;
+}
+.Clasic {
+  letter-spacing: 1.5px;
+  padding: 20px 0;
+  color: brown;
+}
+
+.Clasic-2 {
+  font-size: 60px;
+}
+
+.Ico {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 40px 0 20px 0;
+}
+
+.all-work > h2 {
+  padding: 0 0 20px 0;
+}
+
+.clasic-center {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.rows-inner {
+  margin: 20px 10px;
+  padding: 40px;
+  height: 600px;
+  width: 300px;
+  min-width: 150px;
+  /* background-image: linear-gradient(to top, rgb(228, 228, 228), white); */
+  background-color: rgb(228, 228, 228);
+  border: 10px solid rgb(228, 228, 228);
+  border-radius: 40px;
+}
+
+.rows-inner:hover {
+  background-color: white;
+}
+
+.BtnX {
+  width: 40px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.long-arrow-left {
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  transform: rotate(-45deg);
+}
+
+.long-arrow-left::after {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 40px;
+  background-color: white;
+  transform: rotate(-45deg) translate(13px, 4px);
+  left: 0;
+  top: 0;
+}
+
+.rows-inner-head {
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 900px) {
+  .Clasic-2 {
+    font-size: 40px;
+  }
+}
+
+/* ---------------------------- */
